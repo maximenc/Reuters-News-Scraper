@@ -27,7 +27,7 @@ def main(args):
         proxy = None
         print("Proxy not set")
 
-    output_file = "data/%s_%s.csv" % (args.ticker, args.dstart)
+    output_file = "%s_%s.csv" % (args.ticker, args.dstart)
     print("Saving to: \"%s\"" % output_file)
     output = codecs.open(output_file, "w+", "utf-8")
     output.write('\"date\",\"title\",\"url\",\"description\",\"text\"')
