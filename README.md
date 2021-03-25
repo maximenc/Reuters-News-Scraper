@@ -1,6 +1,6 @@
 
 
-# Reuters Company News Scraper
+# Reuters News Scraper
 
 A python script that scrapes company news from Reuters. 
 The author bears no responsibility for any misuse of the tool. (See [Reuters Terms of use](https://www.reuters.com/terms-of-use))
